@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  wallet:
+    image: wallet
+    container_name: wallet
+    restart: always
+    ports:
+      - 3000:3000
